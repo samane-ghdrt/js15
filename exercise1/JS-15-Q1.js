@@ -4,3 +4,8 @@
 // todo-3:Apply a rounded border to the image and set its size to "1 rem"
 // todo-4:Select h1 and h5 tags and place them in the appropriate position according to the image.(you can check help folder)
 // !Answer:
+const bodyEl=document.querySelector('body');
+bodyEl.style.background="#0a122d";
+const imageEl=document.querySelector('#strangeFish');
+imageEl.style.margin="4rem 0";
+imageEl.style.borderRadius="1rem";
