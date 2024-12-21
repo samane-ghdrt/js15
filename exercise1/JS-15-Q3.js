@@ -11,3 +11,4 @@
 */
 // !Answer:
 const navbarItem = ["Home", "Products", "Blog", "Contact us"];
+const ulEl =document.querySelector('.navbar');
