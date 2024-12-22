@@ -261,3 +261,19 @@ const names = [
     gender: "boy",
   },
 ];
+
+const divEL =document.querySelector('#namesContainer');
+for (const element of names) {
+  let person=document.createElement('div');
+  
+  person.classList.add('person');
+for (const key in element) {
+  if (key.gender==="girl") {
+    person.classList.add('girl');
+  }else if(key.gender==="boy"){
+    person.classList.add('boy');
+  }
+}
+divEL.appendChild(person);
+  
+}
