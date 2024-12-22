@@ -5,3 +5,9 @@
 */
 
 // ! ========== Answers ==========
+const sqEl=document.querySelector('#square');
+const cirEl=document.querySelector('#circle');
+const remove =document.querySelector('#remove');
+remove.addEventListener('click',()=>{
+cirEl.remove();
+})
