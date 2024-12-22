@@ -273,6 +273,7 @@ for (const key in element) {
   }else if(key.gender==="boy"){
     person.classList.add('boy');
   }
+  person.textContent=key.name;
 }
 divEL.appendChild(person);
   
