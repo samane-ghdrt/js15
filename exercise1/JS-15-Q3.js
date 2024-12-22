@@ -12,3 +12,10 @@
 // !Answer:
 const navbarItem = ["Home", "Products", "Blog", "Contact us"];
 const ulEl =document.querySelector('.navbar');
+for (const element of navbarItem) {
+  let liEl =document.createElement('li');
+  ulEl.appendChild(liEl);
+  liEl.textContent=element;
+  liEl.classList.add('item');
+  liEl.style.padding="0 1rem";
+}
