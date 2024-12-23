@@ -18,15 +18,15 @@ justify-content: center;
 align-items: flex-end;
 }
 .rec1{
-    width: 90vw;
-    height: 80vh;
-    margin: 5rem 5rem ;
-    background-color: rgb(115, 103, 126);
-    border: 1px solid rgb(101, 85, 115) ;
-    border-radius: 2rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    text-align: center; 
-    display: flex;
+width: 90vw;
+height: 80vh;
+margin: 5rem 5rem ;
+background-color: rgb(115, 103, 126);
+border: 1px solid rgb(101, 85, 115) ;
+border-radius: 2rem;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+text-align: center; 
+display: flex;
 justify-content: center;
 align-items: flex-end;
 
@@ -79,29 +79,24 @@ align-items: flex-end;
     align-items: end; 
     justify-content: end;
 }
-.c1{
-    background-color:rgba(31, 127, 102, 1) ;
+#c1{
+    background-color:rgba(31, 127, 102, 1);
 }
-.c2{
-    background-color:rgba(255, 200, 0, 1) ;
+#c2{
+    background-color:rgba(255, 200, 0, 1);
 }
-.c3{
-    background-color:rgba(255, 123, 0, 1) ;
+#c3{
+    background-color:rgba(255, 123, 0, 1);
 }
-.c4{
-    background-color:rgba(216, 1, 1, 1) ;
+#c4{
+    background-color:rgba(216, 1, 1, 1);
 }
-.c5{
-    background-color:rgba(223, 4, 70, 1) ;
-    background-color: rgb(199, 134, 154);
-    background-color: rgb(222, 109, 143);
-    background-color: rgb(197, 86, 119);
-    background-color: rgb(99, 21, 44);
-    background-color: rgba(223, 4, 70, 1);
+#c5{
+    background-color:rgba(223, 4, 70, 1);
 }
-.c6{
-    background-color:rgba(127, 31, 85, 1)  ;
+#c6{
+    background-color:rgba(127, 31, 85, 1);
 }
-.c7{
-    background-color:rgba(93, 18, 199, 1) ;
+#c7{
+    background-color:rgba(93, 18, 199, 1);
 }
